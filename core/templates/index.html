@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <!--{{ messages }}
+    {% for message in messages %} boucle for/if/logique
+    {% endfor %}-->
+    <head>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+        <div class="container">
+            <h1> Nom du site </h1>
+            <ul>
+                <li>Accueil</li>
+                <li>Tableau de bord</li>
+                <li> Mon profil</li>
+            </ul>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,17 @@
+.container{
+    display:flex;
+    align-items: center;
+    padding: 10px; /* zone d'espace interieur à la boite*/
+    margin: 3px ; /*zone d'espace exterieur a la boite - s'ajoute au val heigt et wdith reps largeur et hauteur si ells existent*/
+    border: 0.5px solid black; /*creer la bordure et son epaisseur */
+    background-color: rgba(183, 236, 194, 0.39);
+    border-radius:25%;
+}
+.container ul{
+    display: inline-flex;
+    list-style: none;
+}
+.container li{
+    display: inline;
+    padding:10px;
+}
